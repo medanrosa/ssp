@@ -35,7 +35,7 @@
                   </li>
                   <li class="nav-item">
                     <div class="tm-nav-link-highlight"></div>
-                    <a class="nav-link" href="/testimonials">Testimonials</a>
+                    <a class="nav-link" href="/testimonials">Booking</a>
                   </li>
                   <li class="nav-item">
                     <div class="tm-nav-link-highlight"></div>

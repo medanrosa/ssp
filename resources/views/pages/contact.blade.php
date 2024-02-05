@@ -11,7 +11,7 @@
                    <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
                       <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Contact</h2>
                       <p class="tm-services-description mb-0 small">
-                          Parallax movement background page "people" for contact page
+                        
                       </p>
                   </div>
               </div>
@@ -42,17 +42,10 @@
                               
                       <i class="mx-auto mb-5 fas fa-3x fa-address-card tm-app-feature-icon"></i>
                       
-                      <h3 class="tm-service-tab-title">Maecenas in aliquam lorem</h3>
+                      <h3 class="tm-service-tab-title">Leave us a review</h3>
                       <p class="tm-service-tab-p">
-                          Proin rutrum massa quis erat mollis iaculis. Vestibulum
-                          a risus ex. Nunc rhoncus, justo at blandit cursus, orci
-                          erat molestie felis, id ullamcorper mauris felis eu eros.
+                        We would love to hear about your experience to improve our services
                       </p>                            
-                      <p class="mb-0">
-                          Donec turpis augue, mollis eu erat in, posuere congue 
-                          sapien.  Maecenas facilisis dui sit amet ornare aliquam.
-                          Paesent malesuada mi a est pulvinar.
-                      </p>
                   </div>
               </div>
           </section>
@@ -62,11 +55,9 @@
             <div class="col-12 tm-call-to-action-col">
               <img src="img/call-to-action-3.jpg" alt="Image" class="img-fluid tm-call-to-action-image" />
               <div class="tm-bg-white tm-call-to-action-text">
-                <h2 class="tm-call-to-action-title">Vivamus sollicitudin tellus</h2>
+                <h2 class="tm-call-to-action-title">Be the first to know</h2>
                 <p class="tm-call-to-action-description">
-                  Maecenas maximus tellus in dolor auctor tristique. Nam hendrerit
-                  posuere laoreet. Aliquam erat volutpat. Nulla eros est,
-                  imperdiet vel feugiat non, ullamcorper mattis nulla.
+                  Subscribe to our news letter to hear the latest update with our system.
                 </p>
                 <form action="#" method="get" class="tm-call-to-action-form">                
                   <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email" />

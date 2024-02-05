@@ -43,7 +43,7 @@
         </div>
 
         <footer class="row">
-            <p class="col-12 text-white text-center tm-copyright-text">
+            <p class="col-12  text-center tm-copyright-text">
               Copyright &copy; 2020 App Landing Page. 
               Designed by <a href="#" class="tm-copyright-link">TemplateMo</a>
             </p>
@@ -52,6 +52,7 @@
           <script src="js/jquery.min.js"></script>
           <script src="js/parallax.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
+          <script src="{{ asset('js/booking.js') }}"></script>
 
         @stack('modals')
 

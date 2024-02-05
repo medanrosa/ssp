@@ -2,41 +2,36 @@
   <div class="backgroundfinal">
 <section class="row" id="tmAbout">
     <header class="col-12 tm-about-header">
-      <h2 class="text-uppercase text-center text-dark tm-about-page-title">About this app</h2>
+      <h2 class="text-uppercase text-center tm-about-page-title">About this app</h2>
       <hr class="tm-about-title-hr">
     </header>
     <div class="col-lg-4">
-      <div class="tm-bg-black-transparent tm-about-box">
+      <div class="tm-bg-black-transparent tm-about-box2">
         <div class="tm-about-number-container">0.1</div>              
-        <h3 class="tm-about-name">Best Quality</h3>
+        <h3 class="tm-about-name">MISSION</h3>
         <p class="tm-about-description">
-          Integer dapibus aliquam accumsan. Nam diam elit, mollis quis elit sed, hendrerit dapibus eros. Cras auctor laoreet tortor eget. BG #0F1D20
+          Our mission at RailReady is to transform the way you book train tickets, making it a hassle-free and enjoyable experience. We strive to connect travelers with their desired destinations by offering a user-friendly platform, exceptional customer service, and innovative solutions.
         </p>
       </div>
     </div>
 
     <div class="col-lg-4">
-      <div class="tm-bg-black-transparent tm-about-box">
+      <div class="tm-bg-black-transparent tm-about-box2">
         <div class="tm-about-number-container">0.2</div>              
-        <h3 class="tm-about-name">Satisfaction</h3>
+        <h3 class="tm-about-name">Vision</h3>
         <p class="tm-about-description">
-          Parallo is a HTML landing page template based on Bootstrap v4.3.1 framework. Please tell your friends about TemplateMo.
+          At RailReady, we envision a world where booking train tickets is as simple as a click. We aim to be the go-to platform for travelers seeking convenience, reliability, and personalized trave
         </p>
-        <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">More</a>
       </div>
     </div>
 
     <div class="col-lg-4">
-      <div class="tm-bg-black-transparent tm-about-box">
+      <div class="tm-bg-black-transparent tm-about-box2">
         <div class="tm-about-number-container">0.3</div>              
-        <h3 class="tm-about-name">High Return</h3>
+        <h3 class="tm-about-name">Our Commitment</h3>
         <p class="tm-about-description">
-          You are allowed to use this for commercial purpose or personal site.
+          RailReady is committed to providing a seamless and enjoyable train travel experience for all. Whether you're a frequent commuter or an occasional traveler, we're here to make your journey as smooth as possible and We look forward to serving you on your next adventure with RailReady.
         </p>
-        <p class="tm-about-description">
-           You are NOT allowed to redistribute this template on any download site or template collection sites.
-        </p>
-        <a href="#tmFeatures" class="btn btn-secondary tm-btn-app-feature">Details</a>
       </div>
     </div>
   </section>
@@ -45,8 +40,7 @@
   <section id="tmAppFeatures">
       <div class="row">
           <header class="col-12 text-center text-white tm-bg-black-transparent p-5 tm-app-header">
-              <h2 class="text-uppercase mb-3 tm-app-feature-header">App Features</h2>
-              <p class="mb-0 small">Suspendisse finibus tellus eget sem lacinia, vel lacinia libero consequat. Sed imperdiet placerat vehicula.</p>
+              <h2 class="text-uppercase mb-3 tm-app-feature-header">Benifits</h2>
           </header>
       </div>
 
@@ -57,8 +51,8 @@
                       <i class="fas fa-3x fa-air-freshener tm-app-feature-icon"></i>
                   </div>
                   <div class="tm-app-feature-description-box">
-                      <h3 class="mb-4 tm-app-feature-title">Phasellus est lorem</h3>
-                      <p class="tm-app-feature-description">Suspendisse finibus tellus eget sem lacinia, vel lacinia libero consequat. Sed imperdiet placerat vehicula. Etiam eu egestas nibh. In turpis ligula.</p>
+                      <h3 class="mb-4 tm-app-feature-title">Environmental Footprint</h3>
+                      <p class="tm-app-feature-description">Thousands of paper ticket wastes will be elemenated contributing to the environment</p>
                   </div>
               </div>
           </div>
@@ -69,8 +63,8 @@
                       <i class="fas fa-3x fa-binoculars tm-app-feature-icon"></i>
                   </div>
                   <div class="tm-app-feature-description-box">
-                      <h3 class="mb-4 tm-app-feature-title">Proin scelerisque</h3>
-                      <p class="tm-app-feature-description">Etiam fermentum nisi lorem, vel pharetra ipsum egestas non. Proin odio ipsum, vestibulum quis elit quis, vulputate venenatis neque. Nam dignissim libero.</p>
+                      <h3 class="mb-4 tm-app-feature-title">Improved Security</h3>
+                      <p class="tm-app-feature-description">Electronic tickets with secure authentication mechanisms can help reduce the risk of ticket fraud, as they are more challenging to counterfeit than traditional paper tickets.</p>
                   </div>
               </div>
           </div>
@@ -81,8 +75,8 @@
                       <i class="fas fa-3x fa-campground tm-app-feature-icon"></i>
                   </div>
                   <div class="tm-app-feature-description-box">
-                      <h3 class="mb-4 tm-app-feature-title">Integer tempor</h3>
-                      <p class="tm-app-feature-description">Aliquam erat volutpat. Phasellus a odio eget enim luctus vestibulum nec sed tellus. Pellentesque aliquam sem quis lobortis laoreet. Donec egestas.</p>
+                      <h3 class="mb-4 tm-app-feature-title">Global Reach</h3>
+                      <p class="tm-app-feature-description">Electronic tickets enable a broader audience to access and book tickets from virtually anywhere, expanding the reach of transportation services.</p>
                   </div>
               </div>
           </div>
@@ -93,8 +87,8 @@
                       <i class="fas fa-3x fa-fire tm-app-feature-icon"></i>
                   </div>
                   <div class="tm-app-feature-description-box">
-                      <h3 class="mb-4 tm-app-feature-title">Curabitur dignissim</h3>
-                      <p class="tm-app-feature-description">Donec ut odio nec nisl feugiat dictum. Quisque sit amet mattis dolor. Morbi et erat vestibulum, finibus nunc quis, fermentum eros. Cras laoreet eros.</p>
+                      <h3 class="mb-4 tm-app-feature-title">Public Health</h3>
+                      <p class="tm-app-feature-description">Digital tickets contribute to a reduction in physical touchpoints, aligning with public health considerations and reducing the risk of the spread of germs.</p>
                   </div>
               </div>
           </div>

@@ -102,6 +102,14 @@
                                 <x-dropdown-link href="{{ route('profile.show') }}">
                                     {{ __('Profile') }}
                                 </x-dropdown-link>
+
+                                <x-dropdown-link href="{{ route('user.index') }}">
+                                    {{ __('users') }}
+                                </x-dropdown-link>
+
+                                <x-dropdown-link href="{{ route('trainform.index') }}">
+                                    {{ __('booking') }}
+                                </x-dropdown-link>
     
                                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                                     <x-dropdown-link href="{{ route('api-tokens.index') }}">
@@ -109,10 +117,10 @@
                                     </x-dropdown-link>
                                 @endif
     
-                                <div class="border-t border-gray-200"></div>
+                                {{-- <div class="border-t border-gray-200"></div> --}}
     
                                 <!-- Authentication -->
-                                <form method="POST" action="{{ route('logout') }}" x-data>
+                                <form class="formdash" method="POST" action="{{ route('logout') }}" x-data>
                                     @csrf
     
                                     <x-dropdown-link href="{{ route('logout') }}"

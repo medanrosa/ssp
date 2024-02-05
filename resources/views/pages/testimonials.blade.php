@@ -1,103 +1,113 @@
 <x-app-layout>
-  <div class="backgroundfinal">
-       <!-- Testimonials header -->
+    <div class="backgroundfinal">
+        <!-- Train schedule header -->
         <section class="row" id="tmServices">
             <div class="col-12">
-              <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
-                   data-parallax="scroll"
-                   data-z-index="101"
-                   data-image-src="img/ice-mountain.jpg">
-  
-                   <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
-                      <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Testimonials</h2>
-                      <p class="tm-services-description mb-0 small">
-                          Parallax movement background page ice mountain for testimonials.   
-                      </p>
-                  </div>
-              </div>
+                <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
+                     data-parallax="scroll"
+                     data-z-index="101"
+                     data-image-src="img/ice-mountain.jpg">
+
+                     <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
+                        <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Train Schedule</h2>
+                        <p class="tm-services-description mb-0 small">
+
+                        </p>
+                    </div>
+                </div>
             </div>   
-          </section>
-  
-          <section class="row tm-testimonials-section">
-              <div class="col-12 tm-carousel">              
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">                    
-                    <div class="tm-person-img-container">
-                      <img src="img/person-1.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Praesent ornare</h3>
-                    <p class="tm-about-description">
-                      Vestibulum semper dolor sed elit mattis placerat cursus sed ac urna. Mauris eget suscipit purus, id ullamcorper mi. Mauris eu velit semper turpis semper.
-                    </p>
-                  </div>
-  
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">
-                    <div class="tm-person-img-container">
-                      <img src="img/person-2.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Maecenas Pretium</h3>
-                    <p class="tm-about-description">
-                        Fusce pellenteqeue nunc sed orci mattis mattis. Etiam porttitor bibendum ligula eu saggittis. Duis lacus mi, tincidunt ut massa elementum, volutpat.
-                    </p>
-                  </div>
-  
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">
-                    <div class="tm-person-img-container">
-                      <img src="img/person-3.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Nulla Quis Magna</h3>
-                    <p class="tm-about-description">
-                      Donec id ante nulla. Quisque vestibulum dapibus neque. Nam ex massa, fringilla ac tortor a, porta quismod mi. Maecenas gravida maximus ultrices.
-                    </p>
-                  </div>
-  
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">
-                    <div class="tm-person-img-container">
-                      <img src="img/person-1.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Praesent ornare</h3>
-                    <p class="tm-about-description">
-                      Vestibulum semper dolor sed elit placerat cursus sed ac urna. Mauris eget suscipit purus, id ullamcorper mi. Mauris eu velit semper turpis semper.
-                    </p>
-                  </div>    
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">
-                    <div class="tm-person-img-container">
-                      <img src="img/person-2.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Maecenas Pretium</h3>
-                    <p class="tm-about-description">
-                        Fusce pellenteqeue nunc sed orci mattis mattis. Etiam porttitor bibendum ligula eu saggittis. Duis lacus mi, tincidunt ut massa elementum, volutpat.
-                    </p>
-                  </div>
-  
-                  <div class="tm-bg-black-transparent tm-testimonial-box text-center">
-                    <div class="tm-person-img-container">
-                      <img src="img/person-3.png" alt="Image" class="img-fluid mx-auto"/>
-                    </div>              
-                    <h3 class="tm-about-name tm-uppercase">Nulla Quis Magna</h3>
-                    <p class="tm-about-description">
-                      Donec id ante nulla. Quisque vestibulum dapibus neque. Nam ex massa, fringilla ac tortor a, porta quismod mi. Maecenas gravida maximus ultrices.
-                    </p>
-                  </div>          
-            </div>
-          </section>
-  
-          <!-- Call to Action -->
-          <section class="row tm-testimonials-cta" id="tmCallToAction">
-            <div class="col-12 tm-call-to-action-col">
-              <img src="img/call-to-action-2.jpg" alt="Image" class="img-fluid tm-call-to-action-image" />
-              <div class="tm-bg-white tm-call-to-action-text">
-                <h2 class="tm-call-to-action-title">Vivamus sollicitudin tellus</h2>
-                <p class="tm-call-to-action-description">
-                  Maecenas maximus tellus in dolor auctor tristique. Nam hendrerit
-                  posuere laoreet. Aliquam erat volutpat. Nulla eros est,
-                  imperdiet vel feugiat non, ullamcorper mattis nulla.
-                </p>
-                <form action="#" method="get" class="tm-call-to-action-form">                
-                  <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email" />
-                  <button type="submit" class="btn btn-secondary">Get Updates</button>
+        </section>
+
+        
+        <!-- Train booking form section -->
+        <div class="row tm-testimonials-section">
+            <div class="col-12">
+                <form action="{{ route('trainform.store') }}" method="POST" id="booking-form">
+                    <!-- Form content goes here -->
+                    @csrf
+                    <!-- Personal details -->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <!-- Payment information -->
+                    <div class="form-group">
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card" required>
+                    </div>
+                    <!-- Departure and arrival destinations -->
+                    <div class="form-group">
+                        <label for="departure">Departure:</label>
+                        <select id="departure" name="departure" required>
+                            <option value="Colombo">Colombo</option>
+                            <option value="Negombo">Negombo</option>
+                            <option value="Galle">Galle</option>
+                            <option value="Jaffna">Jaffna</option>
+                            <!-- Add more departure destinations here -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <select id="destination" name="destination" required>
+                            <option value="Colombo">Colombo</option>
+                            <option value="Galle">Galle</option>
+                            <option value="Negombo">Negombo</option>
+                            <option value="Jaffna">Jaffna</option>
+                            <!-- Add more arrival destinations here -->
+                        </select>
+                    </div>
+                    <!-- Time slot selection -->
+                    <div class="form-group">
+                        <label for="time-slot">Time Slot:</label>
+                        <select id="time-slot" name="time_slot" required>
+                            <option value="06:00 AM">06:00 AM</option>
+                            <option value="06:40 AM">06:40 AM</option>
+                            <option value="07:00 AM">07:00 AM</option>
+                            <option value="07:25 AM">07:25 AM</option>
+                            <option value="08:20 AM">08:20 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:15 AM">12:15 AM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="03:30 PM">03:30 PM</option>
+                            <option value="04:10 PM">04:10 PM</option>
+                            <option value="05:00 PM">05:00 PM</option>
+                            <option value="05:25 PM">05:25 PM</option>
+                            <option value="05:40 PM">05:40 PM</option>
+                            <option value="06:15 PM">06:15 PM</option>
+                            <option value="07:20 PM">07:20 PM</option>
+                            <option value="08:00 PM">08:00 PM</option>
+                            <option value="09:00 PM">09:00 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                            <option value="11:30 PM">11:30 PM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <!-- Add more time slots here -->
+                        </select>
+                    </div>
+                    <!-- Class selection -->
+                    <div class="form-group">
+                        <label for="class">Class:</label>
+                        <select id="class" name="class" required>
+                            <option value="Standard">Standard</option>
+                            <option value="Economy Plus">Economy Plus</option>
+                            <option value="Economy Plus">Business class</option>
+                            <!-- Add more classes here -->
+                        </select>
+                    </div>
+                    <!-- Total price calculation -->
+                    <div class="form-group">
+                        <label for="total-price">Total Price:</label>
+                        <input type="text" id="total-price" name="price">
+                    </div>
+                    <!-- Calculate Price button -->
+                    <button type="button" id="calculate-price">Calculate Price</button>
+                    <!-- Pay now button -->
+                    <button>Pay Now</button>
                 </form>
-              </div>
             </div>
-          </section>
-          <div class="backgroundfinal">
-        </x-app-layout>
+        </div>
+    </div>
+</x-app-layout>

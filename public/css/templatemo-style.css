@@ -202,7 +202,7 @@ small {
 }
 
 .tm-home-text {
-  margin-bottom: 47px;
+  font-size: larger;
 }
 
 .btn {
@@ -291,9 +291,10 @@ small {
 }
 
 .tm-call-to-action-text {
-  padding: 50px 60px;
-  min-height: 400px;
-  width: calc(100% - 400px);
+  padding: 50px;
+  margin-left: 2%;
+  text-align: center;
+  height: 250px;
   background-color: #ffffff;
 }
 
@@ -347,10 +348,14 @@ p {
   font-size: 1rem;
   padding-top: 50px;
   padding-bottom: 45px;
+  color: rgb(0, 0, 0);
 }
 
 .tm-copyright-link {
-  color: white;
+  font-size: 1rem;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  color: rgb(0, 0, 0);
 }
 
 .tm-copyright-link:hover {
@@ -369,9 +374,23 @@ p {
 }
 
 .tm-about-box {
-  padding: 25px;
+  padding: 65px;
   max-width: 360px;
   margin-bottom: 30px;
+}
+
+.tm-about-box2 {
+  padding: 25px;
+  max-width: 360px;
+  margin-left: 9%;
+  margin-bottom: 30px;
+}
+
+.tm-about-box3 {
+  padding: 25px;
+  border-radius: 50px;
+  text-align: center;
+  width: 2500px;
 }
 
 .tm-about-title-hr {
@@ -481,6 +500,7 @@ p {
   padding: 80px 70px;
   margin-top: 22px;
   margin-bottom: 41px;
+  text-align: center;
 }
 
 #tmServices .tabs {
@@ -557,79 +577,86 @@ p {
 .tm-service-tab-p {
   margin-bottom: 40px;
 }
-
-/* Testimonials */
-.tm-testimonials-section {
-  padding-top: 45px;
-  padding-bottom: 90px;  
-  margin-left: -35px;
-  margin-right: -35px;
+/* dashboard */
+.formdash {
+  background-color: #fff;
+  padding: 0px;
 }
 
-.tm-testimonials-header {
-  padding: 55px 15px 50px;
+/* user.blade.php  -- index */
+
+
+#booking-form {
+  max-width: 800px; /* Increased maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.tm-testimonials-page-title {
-  padding-bottom: 0;
+/* Adjust layout to display departure and destination side by side */
+.form-group {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.tm-testimonials-parallax-header {
-  min-height: 400px;
-  margin-bottom: 45px;
+.form-group label {
+  flex: 1;
+  margin-right: 10px;
 }
 
-.tm-person-img-container {
-  margin-bottom: 63px;
+.form-group select {
+  flex: 2;
 }
 
-.appicon {
-  width: 400px;
-  height:260px;
+/* Remove hover effect from buttons */
+button:hover {
+  background-color: #4caf50; /* Reverted to original color without hover effect */
 }
 
-.tm-testimonial-box {
-  padding: 60px 30px 85px;  
-  margin-left: 20px;
-  margin-right: 20px;
+/* Additional styling for a pleasing appearance */
+input[type="text"],
+input[type="email"],
+select,
+button {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.slick-dots {
-  bottom: -88px;;
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="#666" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z" /></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+  padding-right: 30px;
 }
 
-.slick-dots li,
-.slick-dots li button {
-  width: 30px;
-  height: 30px;
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
 }
 
-.slick-dots li {  
-  margin: 8px;
+/* Adjust button padding and margin */
+button[type="button"] {
+  padding: 10px 20px;
+  margin-right: 10px;
 }
 
-.slick-dots li button {
-  font-family: "Font Awesome 5 Free";
-  font-size: 1.6em;
-  font-weight: 900;
-}
-
-.slick-dots li button:before {
-  font-family: inherit;
-  font-size: inherit;  
-  content: "\f45c";
-  opacity: 0.5;
-}
-
-.slick-dots li.slick-active button:before {
-  opacity: 0.85;
-}
-
-
-#tmCallToAction.tm-testimonials-cta {
-  padding-bottom: 185px;
-}
 
 /* Contact page */
 .tm-contact-form {
