@@ -63,7 +63,7 @@
                             <tbody class="divide-y divide-gray-200">
                                 @foreach ($users as $user)
                                     <tr>
-                                        <td 
+                                        <td
                                             class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
                                             {{ $user->id }}</td>
                                         <td
@@ -78,8 +78,8 @@
                                         <td
                                             class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
                                             <div class="flex gap-3">
-                                                <a href="{{ route('user.show', $user->id) }}"
-                                                     button type="submit"> Show</a>
+{{--                                                <a href="{{ route('user.show', $user->id) }}"--}}
+{{--                                                     button type="submit"> Show</a>--}}
                                                 <a href="{{ route('user.edit', $user->id) }}"
                                                     button type="submit">Edit</a>
                                                 <form class="formdash"

@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="css/all.min.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/templatemo-style.css" />
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
         <!-- Styles -->
         @livewireStyles
     </head>
@@ -44,7 +47,7 @@
 
         <footer class="row">
             <p class="col-12  text-center tm-copyright-text">
-              Copyright &copy; 2020 App Landing Page. 
+              Copyright &copy; 2020 App Landing Page.
               Designed by <a href="#" class="tm-copyright-link">TemplateMo</a>
             </p>
           </footer>

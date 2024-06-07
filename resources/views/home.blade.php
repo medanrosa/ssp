@@ -14,8 +14,7 @@
       </div>
     </div>
     <div class="tm-home-right">
-      {{-- <img src="img/mobile-screen.png" alt="App on Mobile mockup" /> --}}
-      <img src="{{url('img/bg-01.jpg') }}" alt="App on Mobile mockup" />
+      <img src="{{url('img/homepgimg.jpg') }}" alt="App on Mobile mockup" />
     </div>
   </div>
 </section>
@@ -25,7 +24,7 @@
   <div class="col-lg-4">
     <div class="tm-bg-white-transparent tm-feature-box">
     <h3 class="tm-feature-name">Secure Online Bookings</h3>
-    
+
     <div class="tm-feature-icon-container">
         <i class="fas fa-3x fa-server"></i>
     </div>

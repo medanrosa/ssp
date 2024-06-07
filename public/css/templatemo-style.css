@@ -33,7 +33,7 @@ body {
 }
 
 .backgroundfinal{
-  background-color: #33485c;
+  background-color: #9ec1d7;
 }
 a,
 button {
@@ -575,7 +575,7 @@ p {
 
 .tm-service-tab-title,
 .tm-service-tab-p {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 /* dashboard */
 .formdash {

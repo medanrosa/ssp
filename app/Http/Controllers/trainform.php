@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\bookingform;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 class trainform extends Controller
 {
     /**
@@ -30,7 +30,7 @@ class trainform extends Controller
      */
     public function store(Request $request)
     {
-        bookingform::create([
+        $ticket = bookingform::create([
             'name' => $request->get('name'),
             'email' => $request->get('email'),
             'card' => $request->get('card'),
@@ -39,9 +39,17 @@ class trainform extends Controller
             'time_slot' => $request->get('time_slot'),
             'class' => $request->get('class'),
             'price' => $request->get('price'),
+            'user_id' => Auth::id(), // Set the user_id to the ID of the authenticated user
         ]);
 
-        return redirect()->route('trainform.index');
+        return redirect()->route('ticketgen', ['id' => $ticket->id]);
+    }
+
+
+    public function showTicket($id)
+    {
+        $ticket = bookingform::findOrFail($id);
+        return view('ticketgen', ['ticket' => $ticket]);
     }
 
     /**
@@ -73,7 +81,17 @@ class trainform extends Controller
      */
     public function destroy(bookingform $form)
     {
-        $form->delete();
+        $form->forceDelete();
         return redirect()->route('trainform.index')->with('success', 'Booking details successfully deleted!');
     }
+
+    /**
+     * Display the user's booking history.
+     */
+    public function myBookings()
+    {
+        $bookings ['bookings'] = bookingform::where('user_id', Auth::id())->get();
+        return view('mybookings', $bookings);
+    }
+
 }

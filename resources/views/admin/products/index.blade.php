@@ -102,22 +102,22 @@
                                             <td
                                             class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
                                             {{ $good->price}}</td>
-                                        <td
-                                            class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-                                            <div class="flex gap-3">
-                                                {{-- <a href="{{ route('trainform.show', $good->id) }}"
-                                                    class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Show</a> --}}
-                                                <a href="{{ route('trainform.edit', $good->id) }}"
-                                                    class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Edit</a>
-                                                <form class="formdash"
-                                                    action="{{ route('trainform.destroy', $good->id) }}"
-                                                    method="POST">
-                                                    @csrf
-                                                    @method('DELETE')
-                                                    <button type="submit" class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Delete</button>
-                                                </form>
-                                            </div>
-                                        </td>
+{{--                                        <td--}}
+{{--                                            class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">--}}
+{{--                                            <div class="flex gap-3">--}}
+{{--                                                --}}{{-- <a href="{{ route('trainform.show', $good->id) }}"--}}
+{{--                                                    class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Show</a> --}}
+{{--                                                <a href="{{ route('trainform.edit', $good->id) }}"--}}
+{{--                                                    class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Edit</a>--}}
+{{--                                                <form class="formdash"--}}
+{{--                                                    action="{{ route('trainform.destroy', $good->id) }}"--}}
+{{--                                                    method="POST">--}}
+{{--                                                    @csrf--}}
+{{--                                                    @method('DELETE')--}}
+{{--                                                    <button type="submit" class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Delete</button>--}}
+{{--                                                </form>--}}
+{{--                                            </div>--}}
+{{--                                        </td>--}}
                                     </tr>
                                 @endforeach
 

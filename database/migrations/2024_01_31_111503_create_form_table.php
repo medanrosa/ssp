@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('bookingforms', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
-            $table->string('email')->unique();
-            $table->string('card')->unique();
+            $table->string('name');
+            $table->string('email');
+            $table->string('card');
             $table->string('departure');
             $table->string('destination');
             $table->string('time_slot');

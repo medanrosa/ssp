@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class UserController extends Controller
 {
@@ -65,4 +67,24 @@ class UserController extends Controller
         $user->delete();
         return redirect()->route('user.index')->with('success', 'User successfully deleted!');
     }
+
+    public function sub_type(){
+        $user = Auth::user();
+        $user->Subscription_type = 'Premium';
+        $user->save();
+
+        return view('subscription_success');
+    }
+
+    // app/Http/Controllers/UserController.php
+
+    public function analytics()
+    {
+        // Assuming you have a column 'subscription_type' in your users table
+        $freeUsersCount = User::where('subscription_type', 'Free')->count();
+        $premiumUsersCount = User::where('subscription_type', 'Premium')->count();
+
+        return view('profile.analytics', compact('freeUsersCount', 'premiumUsersCount'));
+    }
+
 }
